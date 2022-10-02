@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package DesafioConstrutor;
+package MembrosInstancia.Desafio;
+
+import DesafioConstrutor.*;
 
 /**
  *
@@ -11,20 +13,20 @@ package DesafioConstrutor;
 public class Produto {
     String nome;
     double preco;
-    double desconto;
+   static double desconto = 0.25;
     
     Produto(){
         
     }
     
-    Produto(String nomeInicial, double precoInicial, double descontoInicial){
+    Produto(String nomeInicial, double precoInicial){
         nome = nomeInicial;
         preco = precoInicial;
-        desconto = descontoInicial;
+      
     }
     
     double precoComDesconto(){
-    return  preco*(1-desconto);
+    return preco*(1-desconto);
     }
     
     double precoComDesconto(double descontoDoGerente){

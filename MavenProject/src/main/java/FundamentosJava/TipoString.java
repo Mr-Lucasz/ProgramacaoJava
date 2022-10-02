@@ -23,12 +23,12 @@ public class TipoString {
         System.out.println(s.equals("Boa tarde"));
         System.out.println(s.equalsIgnoreCase("boa tarde"));
         
-        var nome = "Lucas";
-        var sobrenome = "Rodrigues";
-        var idade = 21;
-        var salario = 1234.4210;
+//        var nome = "Lucas";
+//        var sobrenome = "Rodrigues";
+//        var idade = 21;
+//        var salario = 1234.4210;
         
-        System.out.printf("Nome: %s %s tem %d e ganhar por mes R$%.1f", nome, sobrenome, idade, salario);
+   //     System.out.printf("Nome: %s %s tem %d e ganhar por mes R$%.1f", nome, sobrenome, idade, salario);
         
         // mesmo exemplo acima usando o string format String frase = String.format("Nome: %s %s tem %d 
         //e ganhar por mes R$%.1f", nome, sobrenome, idade, salario);
