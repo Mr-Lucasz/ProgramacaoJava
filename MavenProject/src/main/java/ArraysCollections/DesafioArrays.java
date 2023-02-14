@@ -20,14 +20,7 @@ public class DesafioArrays {
         System.out.println("Quantas notas você quer informar?");
         int qtd = s.nextInt();
         int qtdNotas []= new int[qtd];
-        
-        
-  
-            
-        }
-            
-        
-        
+   
+        }    
     }
           
-
