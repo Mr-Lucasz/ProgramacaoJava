@@ -23,10 +23,10 @@ public class TipoString {
         System.out.println(s.equals("Boa tarde"));
         System.out.println(s.equalsIgnoreCase("boa tarde"));
         
-        var nome = "Lucas";
-        var sobrenome = "Rodrigues";
-        var idade = 21;
-        var salario = 1234.4210;
+        String nome = "Lucas";
+        String sobrenome = "Rodrigues";
+        int idade = 21;
+        double salario = 1234.4210;
         
         System.out.printf("Nome: %s %s tem %d e ganhar por mes R$%.1f", nome, sobrenome, idade, salario);
         
